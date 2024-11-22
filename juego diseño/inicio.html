@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Memoria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-board"></div>
+  <div id="status">
+    <p>Intentos: <span id="attempts">0</span></p>
+    <p>Parejas encontradas: <span id="matched">0</span> / 8</p>
+    <p>Vidas restantes: <span id="lives">5</span></p>
+    <p id="timer">Tiempo: 0 segundos</p>
+    <button id="restart-btn">Reiniciar</button>
+  </div>
+  <audio id="flip-sound" src="https://freesound.org/data/previews/569/569769_12757757-lq.mp3"></audio>
+  <audio id="match-sound" src="https://freesound.org/data/previews/466/466713_8386270-lq.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
